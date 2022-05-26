@@ -56,7 +56,7 @@ background: linear-gradient(90deg, rgba(186,188,22,1) 0%, rgba(107,165,57,1) 48%
 }
 @media screen and (max-width: 950px) {
   div.lobby {
-	background-image: url(../images/home_phone.png);
+	background-image: url(../images/home_phone.jpeg);
     background-position: top;
     background-repeat: no-repeat;
   }
