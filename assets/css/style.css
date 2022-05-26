@@ -1,0 +1,181 @@
+@font-face{
+ font-family: 'Roboto';
+ src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+}
+@font-face{
+ font-family: 'Roboto-light';
+ src: url('../fonts/Roboto-Light.ttf') format('truetype');
+}
+html,body{
+	height: 100%;
+	width: 100%;
+  font-family: Roboto
+}
+div.lobby{
+	background-image: url(../images/home.jpeg);
+	height: 100%;
+	width: 100%;
+	background-position: right;
+    background-size: cover;
+}
+div.detail_sponsor > .header_sponsor{
+    position: absolute;
+    background: rgb(71,162,63);
+    background: linear-gradient(90deg, rgba(71,162,63,1) 0%, rgba(107,165,57,1) 48%, rgba(101,188,22,1) 100%);
+    bottom: -55px;
+    padding: 15px;
+    color: white;
+    font-size: 30px;
+  font-family: Roboto
+}
+/*
+mediaquerie
+800px
+*/
+
+div.botones{
+    position: absolute;
+    top: 50%;
+    right: 145px;
+}	
+.boton_accion{
+text-decoration: none;
+}
+.boton_accion div{
+	background: linear-gradient(90deg, rgba(71,162,63,1) 0%, rgba(107,165,57,1) 48%, rgba(186,188,22,1) 100%);
+    margin: 20px;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+	font-family: Roboto
+}
+.boton_accion div.inverse{
+background: rgb(186,188,22);
+background: linear-gradient(90deg, rgba(186,188,22,1) 0%, rgba(107,165,57,1) 48%, rgba(71,162,63,1) 100%);
+}
+@media screen and (max-width: 950px) {
+  div.lobby {
+	background-image: url(../images/home_cel.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
+}
+@media screen and (max-width: 560px){
+ div.botones{
+  	width: 100%;
+  	right: 0
+ }
+}
+
+.header{
+  background: rgb(71,162,63);
+  background: linear-gradient(90deg, rgba(71,162,63,1) 0%, rgba(107,165,57,1) 48%, rgba(101,188,22,1) 100%);
+  padding: 20px;
+  color: white
+}
+.header h1{
+  font-size: calc(2.375rem + 1.5vw);
+  font-family: Roboto
+}
+
+
+/*Calendario*/
+td.day.past {
+    background: #e1e0e0;
+}
+
+.cal1 .clndr .clndr-table tr .day{
+  border:0 !important;
+  font-family: Roboto;
+}
+.cal1 .clndr .clndr-table tr .day .day-contents{
+  font-size: 25px !important
+}
+.cal1 .clndr .clndr-table .header-days{
+  background: #3b393b !important
+}
+tr td.header-day:nth-child(even) {
+  background-color: #a1a1a1 ;
+  border: 1px #a1a1a1 solid !important;
+}
+
+td.empty.next-month.position-relative {
+    border: 0 !important;
+}
+
+.cal1 .clndr .clndr-table tr .empty, .cal1 .clndr .clndr-table tr .adjacent-month, .cal1 .clndr .clndr-table tr .my-empty, .cal1 .clndr .clndr-table tr .my-adjacent-month{
+  background: white !important;
+  border: 0 !important;
+}
+.cal1 .clndr .clndr-table tr .day:hover{
+background:   #7656ad !important;
+color: white !important
+}
+
+.month{
+    color: #523487;
+    font-size: 35px;
+    font-family: 'Roboto';
+}
+.cal1 .clndr .clndr-controls .clndr-control-button{
+  width: 10% !important
+}
+.cal1 .clndr .clndr-controls .month{
+  width: 80% !important
+}
+
+h2{
+      margin-top: 0px;
+    margin-bottom: 24px;
+    color: #47A23F;
+    font-size: 46px;
+    line-height: 1.435em;
+    font-weight: 500;
+}
+h3 {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    color: #47A23F;
+    font-size: 28px;
+    line-height: 1.286em;
+    font-weight: 500;
+}
+footer{
+  background: rgb(71,162,63);
+    background: linear-gradient(90deg, rgba(71,162,63,1) 0%, rgba(107,165,57,1) 48%, rgba(101,188,22,1) 100%);
+    padding: 20px;
+    color: white;
+}
+.registro{
+  background-image: url(../images/registro.jpeg); 
+    height: 100%;
+  width: 100%;
+  background-position: right;
+    background-size: cover;
+}
+.font_light{
+  font-family: Roboto-light
+}
+.modal-content{
+  background-color: #fffdfdbf !important
+}
+.modal-content .card{
+  background-color: #ffffff00;
+  border:0;
+}
+
+/*menu*/
+ul.menu li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    margin: 5px;
+}
+ul.menu li a{
+  color: white
+}
+ul.menu{
+  float: right;
+}
